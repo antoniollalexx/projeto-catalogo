@@ -1,3 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+/* Corpo do login */
 body {
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:seagreen;
+
+}
+
+/* Caixa do Login */
+.wrapper {
+    width: 390px;
+    background: purple;
+    color: #fff;
+
+}
+/* Texto Login */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+/* Label Login e Senha */
+.wrapper .input-box {
+    position: relative;
+    width: 85%;
+    height: 50PX;
+    margin: 30px;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 20px;
+
+}
+
+
+.input-box input::placeholder {
+    color: #fff;
+
+}
+
+/* Icones */
+.input-box i {
+    position: absolute;
+    right: 20PX;
+    top: 35%;
+    transform: translate(-50%) ;
+
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15 0 15px;
 }
