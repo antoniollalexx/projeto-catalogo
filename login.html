@@ -12,11 +12,11 @@
         <form action="">
             <h1>Login</h1>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
+                <input type="text" placeholder="Username" id="login" required>
                 <i class='bx bxs-user'></i>   
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password" required> 
+                <input type="password" placeholder="Password" id="senha" required> 
                 <i class='bx bxs-lock-alt'></i> 
             </div>
 
@@ -25,11 +25,11 @@
                 </label>
                 <a href="#">Esqueci minha Senha.</a>
             </div>
+            
+            
+            <input type="submit" logim class="bnt-login" onclick="bnt(); return false" >
+            
 
-            <a href="index.html">
-                <button type="submit" class="bnt-login">Login</button>
-            </a>
-           
 
             <div class="register-link">
                 <p>Criar Acesso. <a href="#">Registrar</a></p>
@@ -37,5 +37,18 @@
         </form>
     </div>
 
+   <script>
+      function bnt() { 
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "alessandro" && senha =="123"){
+                
+                location.href="index.html";
+            }else{
+                alert('Usuário e Senha incorreta!');
+            }
+        }
+    </script>   
 </body>
 </html>
