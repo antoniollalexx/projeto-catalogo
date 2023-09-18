@@ -267,7 +267,7 @@ color: #00000075;
 }
 
 
-.card-item button {
+.card-item  button {
     width: 90%;
     padding: 15px 0px;
     border: none;
@@ -281,8 +281,24 @@ color: #00000075;
      margin-bottom: 10px;
 }
 
+.card-item a button {
+    width: 300px;
+    padding: 15px 0px;
+    border: none;
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
+    font-weight:bold;
+     font-size: 1.1em;
+     cursor: pointer;
+     transition: 0.2s ease;
+     margin-bottom: 10px;
+}
+
+
+
 .card-item button:hover {
-    background: #dedede;
+    background: #4cc53d;
     color: var(--blue);
 }
 
