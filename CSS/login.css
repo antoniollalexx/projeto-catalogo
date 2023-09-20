@@ -18,7 +18,8 @@ body {
 /* Caixa do Login */
 .wrapper {
     width: 450px;
-    background: purple;
+    background: transparent;
+    border: 2PX solid rgba(255, 255, 255, .2);
     color: #fff;
     border-radius: 20px;
     padding: 30px 40px;
