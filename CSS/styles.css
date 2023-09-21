@@ -240,7 +240,6 @@ section .card-item {
     flex-direction: column;
     align-items: center ;
     justify-content: space-around;
-    cursor: pointer;
 }
 
 .card-content {
